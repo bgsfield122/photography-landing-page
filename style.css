@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.Navbar{}
+.Navbar_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cta_Branding {
+    border-bottom: 2px solid whitesmoke;
+    margin: 0 7rem;
+
+}
+.Navitemone{
+    display: flex;
+    gap: 30px;
+
+}
+.Navitemthree{
+    display: flex;
+    gap: 30px;
+}
+.fa-solid{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    
+
+}
+.cta_Branding{
+    text-align: center;
+}
+.cta_Branding h1{
+    color: rgb(237, 137, 101);
+    font-size: 7rem;
+    padding: 0;
+    margin: 0;
+}
+.cta_Branding span{
+    color: black;
+}
+.Maincontainer{
+    display: flex;
+    justify-content: center;
+}
+.Main{
+    display: flex;
+    justify-content: space-around;
+}
+.customer-review{
+    flex-basis: 30%;
+    margin-right: -6rem;
+}
+.photographer{
+    flex: 40%;
+}
+.Schedule{
+    flex: 30px;
+    margin-left: -6rem;
+}
+.customer-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    flex-basis: 30%;
+    text-align: left;
+}
+.ratio img{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    border-left: -8rem;
+}
+.ratio span{
+    color: rgb(96, 98, 100);
+}
+.click_btn{
+    background-color: coral;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+}
+.click_here{
+    background-color: coral;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    padding: 0.5rem 2rem;
+    height: 30px;
+
+}
+.ratio{
+    
+}
+.Schedule h2{
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    color: coral;
+    margin: 0;
+    font-weight: 300;
+}
